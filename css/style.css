@@ -1,33 +1,40 @@
+header {
+    width: 100%;
+    margin: 0 auto;
+    background-color: red;
+    height: 110px;
+    position: relative;
 
-header{
-    width:100%; 
-    margin: 0 auto; 
-    background-color:azure;
-
-}
-
-nav{
-text-align: center;
-    background-color:aliceblue;
-
- 
 
 }
 
-nav ul{
-height: 100px;
+.wrapper {}
+
+nav {
+    background-color: aliceblue;
+    position: absolute;
+    bottom: 0;
 }
 
-nav li{
-    
+
+nav ul {
+    margin: auto;
+
+
+}
+
+nav li {
+
     list-style: none;
     display: inline-block;
-}
-nav a{
 
+}
+
+nav a {
+    padding: 0 10px;
     text-decoration: none;
     font-size: 1.2rem;
 
-    
-    
+
+
 }
