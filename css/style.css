@@ -56,7 +56,7 @@ img {
     padding-left: 0;
 }
 
-a {
+.nav-div a {
     text-decoration: none;
     font-size: 1.2rem;
     text-transform: uppercase;
@@ -65,12 +65,12 @@ a {
 
 }
 /*hover effects for navigation items*/
-li:hover{
+.nav-div li:hover{
     background-color: #273041;
     border-radius: 6px;
         
 }
-a:hover{
+.nav-div a:hover{
     color:#fff;
 }
 
@@ -96,7 +96,30 @@ footer{
     position: absolute;
     bottom: 0;
     width:100%;
+    background-color: #323C48;
+      
+    
+/*    #323C48 */
+}
+
+/*footer section*/
+
+
+.footer{
+   width: 100%;
+    height:100px;
+}
+
+.footer-social{
+    position: absolute;
+    bottom: 0;
     background-color:#273041;
+    width: 100%;
+  
+}
+
+.footer-social li{
+    display: inline-block;
 }
 
 /*mobile responsibeness*/
