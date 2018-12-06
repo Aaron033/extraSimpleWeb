@@ -14,8 +14,8 @@
 }
 
 .nav-div {
-    background-color: #fff;
-    max-width: 200px;
+    background-color: red;
+    max-width: 400px;
 
 
 
@@ -33,6 +33,10 @@
     padding: 0 10px;
     display: inline-block;
     padding: 0 auto;
+}
+
+.nav-div ul{
+    padding-left: 0;
 }
 
 a {
