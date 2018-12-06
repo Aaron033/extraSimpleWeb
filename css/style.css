@@ -119,12 +119,16 @@ footer{
 }
 .footer-social li{
     display: inline-block;
+   
     
 }
 
-.footer-social img{
-    width:30px;
-    color:aliceblue;
+
+
+i{
+    color:white;
+    font-size: 20px;
+    padding: 15px;
     
 }
 
