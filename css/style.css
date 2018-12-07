@@ -126,6 +126,8 @@ background-color: #323C48;
 .footer-navigation a {
     text-decoration: none;
     color:#fff;
+    text-transform: uppercase;
+    font-weight: 700;
   
 }
 
@@ -172,10 +174,31 @@ i{
         bottom: 0;
     }
 
-    .nav-div {
-        display: none;
-    }
+    
+    
+/*     This code im fixing*/
+    
+    .wrapper{
+    top: 50px; 
+   position: absolute;
+        
 
+    }
+   
+    .nav-div{
+      background-color:#f1f1f1;
+ 
+        display: block;
+        
+    }
+    .nav-div li{
+        text-align: center;
+        display: block;
+        padding: 10px 10px;
+        margin: 10px 20px;
+    }
+    
+/*    the code above*/
     .menu {
         display: block;
     }
