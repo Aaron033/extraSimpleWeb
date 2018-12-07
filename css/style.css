@@ -198,6 +198,7 @@ i {
 
     .nav-div ul {
         background-color: #f1f1f1;
+        visibility: hidden;
 
     }
 
@@ -212,10 +213,14 @@ i {
         color: #fff;
     }
 
+     .nav-div a {
+        opacity: 0;
+    }
 
     /*    the code above*/
     .menu {
         display: block;
+       
     }
 
     .footer-navigation li {
