@@ -117,6 +117,22 @@ background-color: #323C48;
     text-align: center;
 }
 
+.footer-navigation li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 40px;  
+}
+
+.footer-navigation a {
+    text-decoration: none;
+    color:#fff;
+  
+}
+
+.footer-navigation ul {
+    text-align: center;
+}
+
 /*div footer-social */
  
 .footer-social{
@@ -131,7 +147,8 @@ background-color: #323C48;
 }
 
 .footer-social li{
-    display: inline-block; 
+    display: inline-block;
+    
 }
 
 i{
@@ -162,5 +179,12 @@ i{
     .menu {
         display: block;
     }
+    
+    .footer-navigation li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;  
+}
+
 
 }
