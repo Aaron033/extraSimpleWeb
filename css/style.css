@@ -1,6 +1,7 @@
 * {
     font-family: 'Playfair Display', serif;
     margin-left: 0;
+    margin-right: 0;
 }
 
 /*head container */
@@ -24,7 +25,7 @@
 
 .nav-div {
     background-color: #fff;
-    max-width: 550px;
+    /*    max-width: 550px;*/
 
 
 
@@ -37,7 +38,7 @@
     max-width: 50px;
     background-color: #fff;
     top: -15px;
-    padding-left:5px;
+    padding-left: 5px;
 
 }
 
@@ -66,14 +67,16 @@ img {
     color: #000;
 
 }
+
 /*hover effects for navigation items*/
-.nav-div li:hover{
+.nav-div li:hover {
     background-color: #273041;
     border-radius: 6px;
-        
+
 }
-.nav-div a:hover{
-    color:#fff;
+
+.nav-div a:hover {
+    color: #fff;
 }
 
 hr.style-two {
@@ -81,6 +84,7 @@ hr.style-two {
     height: 1px;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
+
 /*hamburger icon*/
 
 .ham {
@@ -103,32 +107,32 @@ hr.style-two {
 
 /*footer section*/
 
-footer{
+footer {
     position: absolute;
-   bottom: 0;
-   width:100%;
-background-color: #323C48;
-      
-    
-/*    #323C48 */
+    bottom: 0;
+    width: 100%;
+    background-color: #323C48;
+
+
+    /*    #323C48 */
 }
 
-.uni{
+.uni {
     text-align: center;
 }
 
 .footer-navigation li {
     list-style: none;
     display: inline-block;
-    padding: 0 40px;  
+    padding: 0 40px;
 }
 
 .footer-navigation a {
     text-decoration: none;
-    color:#fff;
+    color: #fff;
     text-transform: uppercase;
     font-weight: 700;
-  
+
 }
 
 .footer-navigation ul {
@@ -136,28 +140,29 @@ background-color: #323C48;
 }
 
 /*div footer-social */
- 
-.footer-social{
-    background-color:#273041;
- position: absolute;
+
+.footer-social {
+    background-color: #273041;
+    position: absolute;
     width: 100%;
     text-align: center;
 
 }
-.footer-social ul{
+
+.footer-social ul {
     margin: 0 0;
 }
 
-.footer-social li{
+.footer-social li {
     display: inline-block;
-    
+
 }
 
-i{
-    color:white;
+i {
+    color: white;
     font-size: 20px;
     padding: 15px;
-    
+
 }
 
 
@@ -174,40 +179,50 @@ i{
         bottom: 0;
     }
 
-    
-    
-/*     This code im fixing*/
-    
-    .wrapper{
-    top: 50px; 
-   position: absolute;
-        
+
+
+    /*     This code im fixing*/
+
+    .wrapper {
+        top: 50px;
+        position: absolute;
+        width: 100%;
+
 
     }
-   
-    .nav-div{
-      background-color:#f1f1f1;
- 
+
+    .nav-div {
         display: block;
-        
+
     }
-    .nav-div li{
+
+    .nav-div ul {
+        background-color: #f1f1f1;
+
+    }
+
+    .nav-div li {
         text-align: center;
         display: block;
         padding: 10px 10px;
-        margin: 10px 20px;
+
     }
-    
-/*    the code above*/
+
+    .nav-div a:hover {
+        color: #fff;
+    }
+
+
+    /*    the code above*/
     .menu {
         display: block;
     }
-    
+
     .footer-navigation li {
-    list-style: none;
-    display: inline-block;
-    padding: 0 20px;  
-}
+        list-style: none;
+        display: inline-block;
+        padding: 0 20px;
+    }
 
 
 }
