@@ -16,4 +16,19 @@ let toggleNav = function(){
         }
         toggleNavStatus =true;
     }
+    
+    
+    
+    else if (toggleNavStatus ===true ){
+        
+        
+        
+        let arrayLength = getSidebarLinks.length;
+        for(let i=0; i< arrayLength; i++ ){
+            getSidebarLinks[i].style.opacity="0";
+            
+        }
+        getSidebarUl.style.visibility="hidden";
+        toggleNavStatus =false;
+    }
 }

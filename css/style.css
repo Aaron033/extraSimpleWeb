@@ -193,7 +193,7 @@ i {
 
     .nav-div {
         display: block;
-
+        transition: all 0.3s ease-in-out;
     }
 
     .nav-div ul {
@@ -215,6 +215,7 @@ i {
 
      .nav-div a {
         opacity: 0;
+         transition: all 0.3s ease-in-out;
     }
 
     /*    the code above*/
