@@ -9,6 +9,16 @@ html{
     position: relative;
 }
 
+
+/*body code */
+
+body{
+    min-height: cal(100% - 110px); 
+    position: relative; 
+    padding-bottom: 110px;
+}
+
+
 /*head container */
 
 .container {
