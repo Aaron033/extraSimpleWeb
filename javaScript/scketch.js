@@ -32,3 +32,10 @@ let toggleNav = function(){
         toggleNavStatus =false;
     }
 }
+
+//const mediumBp = matchMedia('(max-width:700px)'); 
+//const changeSize = mql => {
+//    mql.matches 
+//    ? document."nav-div".style.opacity ="1"; 
+//    : document.nav.style.opacity ="1";
+//}

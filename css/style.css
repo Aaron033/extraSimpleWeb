@@ -137,6 +137,8 @@ footer {
 
 .footer-navigation ul {
     text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
 /*div footer-social */
@@ -150,7 +152,7 @@ footer {
 }
 
 .footer-social ul {
-    margin: 0 0;
+    margin: 0 0 0 0;
 }
 
 .footer-social li {
