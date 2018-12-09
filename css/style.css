@@ -2,6 +2,14 @@
     font-family: 'Playfair Display', serif;
     margin-left: 0;
     margin-right: 0;
+    
+    
+}
+
+*:before, 
+*:after {
+    box-sizing: border-box;
+    
 }
 
 html{
@@ -12,8 +20,9 @@ html{
 
 /*body code */
 
+
 body{
-    min-height: cal(100% - 110px); 
+     min-height: cal(100% - 110px); 
     position: relative; 
     padding-bottom: 110px;
 }
@@ -177,7 +186,7 @@ footer {
 }
 
 .footer-social ul {
-    margin: 0 0 0 0;
+    margin: 0;
 }
 
 .footer-social li {
@@ -192,7 +201,9 @@ i {
 
 }
 
-
+.article{
+    margin:20px 50px;
+}
 
 
 /*mobile responsibeness*/
@@ -256,6 +267,8 @@ i {
         display: inline-block;
         padding: 0 20px;
     }
-
+    .article{
+        padding-top:100px;
+    }
 
 }
