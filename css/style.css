@@ -12,6 +12,7 @@
     
 }
 
+
 html{
     height: 100%;
     position: relative;
@@ -22,9 +23,12 @@ html{
 
 
 body{
-     min-height: cal(100% - 110px); 
-    position: relative; 
-    padding-bottom: 110px;
+
+    min-height: 100vh;
+    overflow: hidden; 
+    display: block;
+    position: relative;
+    padding-bottom: 300px;
 }
 
 
@@ -145,6 +149,8 @@ footer {
     bottom: 0;
     width: 100%;
     background-color: #323C48;
+    display: grid;
+    justify-items: start; 
     
 
 
