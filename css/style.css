@@ -1,0 +1,68 @@
+/*General Code */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Hind Madurai', sans-serif;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+
+/*Header code */
+
+.main-navigation {
+    background-color: #273041;
+    padding: 20px;
+}
+
+
+.navigation-menu {
+
+    text-align: center;
+
+}
+
+.navigation-list_links {
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+
+    padding: 10px;
+
+}
+
+.navigation-list_links a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: aliceblue;
+}
+
+.navigation-list_links:hover {
+    background-color: oldlace;
+}
+
+/*body content*/
+
+.content-dividers {
+    padding: 20px;
+    s
+}
+
+.price1 {
+    background-color: #B0E0E6;
+
+}
+
+.price2 {
+    background-color: #FAEBD7;
+}
+
+.price3 {
+    background-color: #FFB90F;
+}
