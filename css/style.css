@@ -17,10 +17,14 @@ ul {
     padding: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
 /*Header code */
 
 .main-navigation {
-    background-color: #273041;
+    background-color: #323C48;
     padding: 20px;
 }
 
@@ -54,10 +58,7 @@ ul {
 
 /*body content*/
 
-/*plans*/
-#plans{
-    
-}
+
 
 .content-dividers {
     padding: 20px;
@@ -72,15 +73,16 @@ ul {
     background-color:#B6C6CF;
     padding: 8px;
 }
-
+/*plans*/
 #plans h1 {
     text-align: center;
-      color:#6CB7F0;
+      color:#C4A90E;
 
 }
 
 #plans{
     padding: 10px;
+  
 }
 
 .price1 {
@@ -99,6 +101,10 @@ ul {
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
     border-radius: 8px;
     
+}
+
+.price2 h2{
+    margin-bottom: 6px; 
 }
 
 .price3 {
@@ -155,4 +161,23 @@ ul {
 
 .button:focus {
     outline: none;
+}
+
+.main-footer{
+    background-color:  #273041;
+    padding: 32px; 
+    margin-top: 48px;
+}
+.main-footer__link{
+    display: inline-block; 
+    margin: 0 16px; 
+
+}
+.main-footer__links{
+        text-align: center;
+}
+
+.main-footer__link  a{
+    color: #fff; 
+    text-transform: uppercase;
 }
