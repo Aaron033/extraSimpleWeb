@@ -74,7 +74,13 @@ ul {
 }
 
 #plans h1 {
-    text-align: center; 
+    text-align: center;
+      color:#6CB7F0;
+
+}
+
+#plans{
+    padding: 10px;
 }
 
 .price1 {
@@ -83,7 +89,7 @@ ul {
 }
 
 .price2 {
-    background-color: #F7C200;
+    background-color: #F70036 ;
 }
 
 .price2 h2{
@@ -96,17 +102,19 @@ ul {
 }
 
 .price3 {
-    background-color: #F70036;
+    background-color: #F7F174;
 }
+
 
 .price1, .price2, .price3 {
     text-align: center;
     padding: 16px;
     margin: 8px; 
     display: inline-block;
-    width:30%;
+    width:27%;
     vertical-align: middle;
 }
+
 
 .prices h3 {
     color: #00008B;
@@ -121,10 +129,12 @@ ul {
 }
 .prices h5{
     font-size: 1.6rem;
+    
 }
 
 .prices li{
     margin: 8px 0;
+    font-weight: 500;
 }
 
 .button {
