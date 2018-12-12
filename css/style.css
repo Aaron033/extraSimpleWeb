@@ -163,6 +163,42 @@ a {
     outline: none;
 }
 
+/*commments section */
+#key-features{
+    background-color:#0E8BC4;
+    margin-top:80px; 
+    padding: 16px;
+}
+
+#key-features h1{
+    text-align: center;
+    color:#fff; 
+    margin: 32px; 
+    
+}
+
+.key-feature{
+    display: inline-block; 
+    width:27%; 
+    vertical-align: top;
+}
+
+.key-feature-list{
+    margin:0; 
+    padding: 0;
+    text-align: center;
+    
+}
+
+.key-feature-image{
+    background-color:aliceblue;
+    width: 128px; 
+    height: 128px; 
+    margin: auto; 
+    border-radius: 50%;
+}
+
+/*footer code */
 .main-footer{
     background-color:  #273041;
     padding: 32px; 
