@@ -13,6 +13,8 @@ html {
 
 ul {
     list-style: none;
+    margin:0; 
+    padding: 0;
 }
 
 /*Header code */
@@ -33,8 +35,8 @@ ul {
     list-style: none;
     display: inline-block;
     margin: 10px;
-
     padding: 10px;
+    
 
 }
 
@@ -47,7 +49,7 @@ ul {
 }
 
 .navigation-list_links:hover {
-    background-color: oldlace;
+    background-color: grey;
 }
 
 /*body content*/
@@ -62,19 +64,39 @@ ul {
     
 }
 
+.description h1 {
+    text-align: center;
+}
 
+.description {
+    background-color:#B6C6CF;
+    padding: 8px;
+}
+
+#plans h1 {
+    text-align: center; 
+}
 
 .price1 {
-    background-color: #B0E0E6;
+    background-color: #F7F174;
 
 }
 
 .price2 {
-    background-color: #87CEEB;
+    background-color: #F7C200;
+}
+
+.price2 h2{
+    background-color: aliceblue;
+    color:#19b84c; 
+    padding: 5px; 
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    
 }
 
 .price3 {
-    background-color: #4169E1;
+    background-color: #F70036;
 }
 
 .price1, .price2, .price3 {
@@ -84,5 +106,43 @@ ul {
     display: inline-block;
     width:30%;
     vertical-align: middle;
-    
+}
+
+.prices h3 {
+    color: #00008B;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+.prices h4{
+    color: #daa520; 
+     font-weight: 700;
+    font-size: 1.5rem;
+}
+.prices h5{
+    font-size: 1.6rem;
+}
+
+.prices li{
+    margin: 8px 0;
+}
+
+.button {
+    background-color: #fff;
+    border: 1.5px solid black; 
+    padding: 8px; 
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button:hover, 
+.button:active {
+    background: red; 
+    color:white; 
+    border: 1.5px solid #fff;
+}
+
+.button:focus {
+    outline: none;
 }
