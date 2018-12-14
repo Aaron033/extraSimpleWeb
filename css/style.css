@@ -1,3 +1,27 @@
+
+/*code for the backdrop*/
+
+.backdrop{
+    position: fixed; 
+ 
+    top:0; 
+    left: 0; 
+    z-index:10; 
+    width:100vw; 
+    height:100vh; 
+    background:rgba(0,0,0,0.5);
+}
+.modal{
+    position: fixed;
+    z-index: 11; 
+    top:20%; 
+    left:30%; 
+    width: 40%; 
+    background: #fff;
+    padding: 1rem; 
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
 /*General Code */
 
 * {
@@ -237,3 +261,11 @@ a {
     color: #fff; 
     text-transform: uppercase;
 }
+
+
+
+
+
+
+
+
