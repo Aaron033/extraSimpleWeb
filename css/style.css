@@ -72,6 +72,9 @@ a {
 .description {
     background-color:#B6C6CF;
     padding: 8px;
+    width: 70%; 
+    max-width: 1000px; 
+    margin:0 auto; 
 }
 /*plans*/
 #plans h1 {
@@ -87,11 +90,13 @@ a {
 
 .price1 {
     background-color: #F7F174;
+    max-width: 250px;
 
 }
 
 .price2 {
     background-color: #F70036 ;
+    max-width: 250px;
 }
 
 .price2 h2{
@@ -109,15 +114,19 @@ a {
 
 .price3 {
     background-color: #F7F174;
+    max-width: 250px;
 }
 
+.prices{
+    text-align: center;
+}
 
 .price1, .price2, .price3 {
     text-align: center;
     padding: 16px;
     margin: 8px; 
     display: inline-block;
-    width:27%;
+ 
     vertical-align: middle;
 }
 
