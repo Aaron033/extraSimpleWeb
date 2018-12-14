@@ -1,0 +1,24 @@
+.image-container{
+    font-size:1.3rem;
+    margin: 48px 0;
+}
+.image-container-pic{
+    width:65%;
+    display: inline-block;
+    vertical-align: middle;
+    box-shadow: 3px 3px 5px 3px rgba(0,0,0,0.3);
+}
+ 
+.testimonial{
+    width: 100%;
+    vertical-align: top;
+}
+ 
+.test-info{
+    text-align: right;
+    width: 30%;
+    display: inline-block;
+    padding: 14px;
+    vertical-align: middle;
+}
+ 
