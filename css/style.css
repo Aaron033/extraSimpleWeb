@@ -198,10 +198,9 @@ a {
     border: 2px solid #424242;
     border-radius: 50%;
 }
-.key-feature img{
-    width:128px;
-    border-radius: 50px;
-    
+.key-feature {
+  
+
 }
 /*footer code */
 .main-footer{
