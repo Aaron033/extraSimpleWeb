@@ -13,3 +13,11 @@ for(var i = 0; i < selectPlanButtons.length; i++){
     });
     
 }
+
+backdrop.addEventListener("click", closeModal);
+modalNoButton.addEventListener("click", closeModal);
+
+function closeModal(){
+    backdrop.style.display ="none"; 
+    modal.style.display = "none"; 
+}

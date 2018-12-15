@@ -292,6 +292,12 @@ a {
     border: 1.5px solid #fff;
 }
 
+.price2 .button:hover, 
+.price2:active{
+    background:#daa520;
+      color:white; 
+    border: 1.5px solid #fff;
+}
 .button:focus {
     outline: none;
 }
