@@ -81,6 +81,10 @@
 
 .mobile-nav__item a {
   font-size: 1.5rem;
+    text-decoration: none; 
+    color:#0e4f1f;
+    font-weight: bold; 
+    padding: 0.2rem 0; 
 }
 
 /*General Code */
