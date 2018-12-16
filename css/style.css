@@ -254,7 +254,7 @@ a {
 .price3 {
     text-align: center;
     padding: 16px;
-    margin: 8px;
+    margin: 8px 0px;
 /*    display: inline-block;*/
     vertical-align: middle;
 }
@@ -375,4 +375,10 @@ a {
 .main-footer__link a {
     color: #fff;
     text-transform: uppercase;
+}
+
+@media (max-width: 540px){
+    .description{
+        width:100%;
+    }
 }
