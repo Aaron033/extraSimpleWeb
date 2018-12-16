@@ -22,11 +22,21 @@ backdrop.addEventListener("click", function(){
     closeModal();
 });
 
-modalNoButton.addEventListener("click", closeModal);
+if(modalNoButton ){
+   modalNoButton.addEventListener("click", closeModal);
+   }
+
+
 
 function closeModal() {
-    backdrop.style.display = "none";
-    modal.style.display = "none";
+
+    if(modal){
+       modal.style.display = "none";
+ 
+   }
+             backdrop.style.display = "none";
+//    modal.classList.remove('open')
+//    backdrop.classList.remove('open')
 }
 
 toggleButton.addEventListener("click", function () {

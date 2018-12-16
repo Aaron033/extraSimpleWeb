@@ -122,6 +122,11 @@
     margin: 0.6rem 0;
 }
 
+
+/*random code*/
+.open{
+    display: block;
+}
 /*General Code */
 
 * {
