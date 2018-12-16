@@ -381,4 +381,11 @@ a {
     .description{
         width:100%;
     }
+    
+    .navigation-menu{
+        display: none;
+    }
+    .main-navigation{
+        height: 50px;
+    }
 }
