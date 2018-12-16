@@ -191,10 +191,6 @@ a {
 
 
 
-.content-dividers {
-    padding: 20px;
-
-}
 
 .description h1 {
     text-align: center;
@@ -260,7 +256,6 @@ a {
     padding: 16px;
     margin: 8px;
     display: inline-block;
-
     vertical-align: middle;
 }
 
