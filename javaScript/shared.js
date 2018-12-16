@@ -1,5 +1,6 @@
 var backdrop = document.querySelector('.backdrop');
 var modal = document.querySelector('.modal');
+var modalNoButton = document.querySelector(".modal-action-negative"); 
 
 //we are going to pick a button that is inside the .plan tag
 var selectPlanButtons = document.querySelectorAll('.prices button');
@@ -9,8 +10,8 @@ var mobileNav = document.querySelector('.mobile-nav');
 
 for (var i = 0; i < selectPlanButtons.length; i++) {
     selectPlanButtons[i].addEventListener('click', function () {
-        modal.style.display = 'block';
-        backdrop.style.display = 'block';
+        modal.style.display = "block";
+        backdrop.style.display = "block";
 
     });
 
@@ -28,6 +29,7 @@ function closeModal() {
     modal.style.display = "none";
 }
 
-toggleButton.addEventListener('click', function () {
-    mobileNav.style.display = 'block';
-    backdrop.style.display ='block'; 
+toggleButton.addEventListener("click", function () {
+    mobileNav.style.display = "block";
+    backdrop.style.display ="block"; 
+});
