@@ -218,13 +218,13 @@ a {
 
 .price1 {
     background-color: #F7F174;
-    max-width: 250px;
+/*    max-width: 250px;*/
 
 }
 
 .price2 {
     background-color: #F70036;
-    max-width: 250px;
+/*    max-width: 250px;*/
 }
 
 .price2 h2 {
@@ -242,7 +242,7 @@ a {
 
 .price3 {
     background-color: #F7F174;
-    max-width: 250px;
+/*    max-width: 250px;*/
 }
 
 .prices {
@@ -255,7 +255,7 @@ a {
     text-align: center;
     padding: 16px;
     margin: 8px;
-    display: inline-block;
+/*    display: inline-block;*/
     vertical-align: middle;
 }
 
