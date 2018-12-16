@@ -18,8 +18,9 @@ for (var i = 0; i < selectPlanButtons.length; i++) {
 
 backdrop.addEventListener("click", function(){
     mobileNav.style.display = "none"; 
-    this.closeModal();
+    closeModal();
 });
+
 modalNoButton.addEventListener("click", closeModal);
 
 function closeModal() {
@@ -28,5 +29,5 @@ function closeModal() {
 }
 
 toggleButton.addEventListener('click', function () {
-    mobileNav.style.display = "block";
-})
+    mobileNav.style.display = 'block';
+    backdrop.style.display ='block'; 
