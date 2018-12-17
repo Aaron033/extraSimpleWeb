@@ -1,27 +1,26 @@
 .image-container{
     font-size:1.3rem;
-  margin: 3rem 0;
+
 
 }
 .image-container-pic{
-    width:65%;
+    width:auto;
     max-width: 580px;
-    display: inline-block;
-    vertical-align: middle;
+/*    display: inline-block;*/
+/*    vertical-align: middle;*/
     box-shadow: 3px 3px 5px 3px rgba(0,0,0,0.3);
 }
  
 .testimonial{
-    width: 100%;
+    width: auto;
     vertical-align: top;
 } 
 .test-info{
     text-align: right;
   
-    display: inline-block;
+/*    display: inline-block;*/
     padding: 0.9rem;
-    vertical-align: middle;
-      width: 30%;
+   
 }
 
 #customer-2 .image-container{
@@ -49,3 +48,14 @@
     object-fit: contain;
 }
   
+@media(min-width:40rem){
+    .test-sinfo{
+        margin:3rem 0; 
+        
+    }
+    
+    .image-container-pic{
+        display: inline-block; 
+        vertical-align: middle;
+    }
+}
