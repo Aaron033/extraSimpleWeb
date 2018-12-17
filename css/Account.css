@@ -9,8 +9,18 @@ html{
 width:500px;
 
     margin: 0 auto;
-    background: #f313;
+    background: #5483B3;
+    
 }
 .account-container ul {
-text-align: center;
+    text-align: center;
+    padding:20px;
+}
+
+.account-container li{
+    margin: 5px;
+}
+.summit-botton{
+    margin:5px;
+    padding: 4px;
 }
