@@ -1,12 +1,11 @@
 .image-container{
     font-size:1.3rem;
-    margin: 48px 0;
-    max-height: 511px;
+  margin: 3rem 0;
+
 }
 .image-container-pic{
     width:65%;
     max-width: 580px;
-   
     display: inline-block;
     vertical-align: middle;
     box-shadow: 3px 3px 5px 3px rgba(0,0,0,0.3);
@@ -15,20 +14,17 @@
 .testimonial{
     width: 100%;
     vertical-align: top;
-}
-
- 
-
- 
+} 
 .test-info{
     text-align: right;
-    width: 30%;
+  
     display: inline-block;
-    padding: 14px;
+    padding: 0.9rem;
     vertical-align: middle;
+      width: 30%;
 }
 
-#customer-2 .image-containers{
+#customer-2 .image-container{
     text-align: right;
 }
 
@@ -38,8 +34,9 @@
 }
  
 .testimonial-name{
-    margin: 3px; 
+    margin: 0.2rem; 
     color: #ff5454;
+    font-size: 2rem;
 }
 
 
