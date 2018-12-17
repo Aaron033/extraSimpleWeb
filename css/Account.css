@@ -1,0 +1,16 @@
+html{
+    width: 100%;
+}
+.main-account-container{
+
+}
+
+.registration-container{
+width:500px;
+
+    margin: 0 auto;
+    background: #f313;
+}
+.account-container ul {
+text-align: center;
+}
