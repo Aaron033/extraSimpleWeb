@@ -103,7 +103,7 @@
     border: none;
     cursor: pointer;
     position: absolute;
-    top: 30px;
+    top: 1.875rem;
     left: 10px;
     padding-top: 10;
     padding-bottom: 0;
@@ -155,7 +155,7 @@ a {
 
 .main-navigation {
     background-color: #323C48;
-    padding: 20px;
+    padding: 1.25rem;
     position: relative;
 }
 
@@ -218,12 +218,15 @@ a {
 
 
 @media (min-width: 40rem){
-    .prices{
-        display: inline-block;
-        
-    }
+   
     .price1, .price2, .price3{
         text-align: center;
+          display: inline-block;
+        width:30%;
+        vertical-align: middle;
+        min-width: 13rem; 
+        max-width: 17.7rem;
+
     }
 }
 
@@ -323,29 +326,23 @@ a {
 /*commments section */
 #key-features {
     background-color: #0E8BC4;
-    margin-top: 80px;
     padding: 16px;
-
-
 }
 
 #key-features h1 {
     text-align: center;
     color: #fff;
     margin: 32px;
-
 }
 
 .o {
     width: 100px;
-
-
 }
 
 
 .key-feature {
-    display: inline-block;
-    width: 27%;
+/*    display: inline-block;*/
+/*    width: 27%;*/
     vertical-align: top;
 }
 
@@ -365,12 +362,22 @@ a {
     border-radius: 50%;
 
 }
+@media (min-width:40rem){
+    .key-feature{
+      
+           display: inline-block;
+    width: 27%;
+    }
+    .key-feature-list{
+      
+    }
+}
 
 /*footer code */
 .main-footer {
     background-color: #273041;
     padding: 32px;
-    margin-top: 48px;
+    
 }
 
 .main-footer__link {
@@ -388,7 +395,7 @@ a {
     text-transform: uppercase;
 }
 
-@media (max-width: 540px){
+@media (max-width: 40rem){
     .description{
         width:100%;
     }
