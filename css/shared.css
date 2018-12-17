@@ -87,12 +87,19 @@
     font-weight: bold;
     padding: 0.2rem 0;
 }
+.mobile-nav__item a:hover {
+    background-color:#daa520;
+    color:#fff;
+    border-radius: 8px;
+    padding: 5px 10px;
+}
 
 .mobile-nav__item--cta a:hover,
 .mobile-nav__item--cta a:active {
-    color: #ff1b68;
-    background-color: #fff;
+    color: #fff;
+    background-color: #daa520;
     border: none;
+    padding: 5px 20px;
 }
 
 /*Button code */
@@ -124,9 +131,6 @@
 
 
 /*random code*/
-.open {
-    display: block;
-}
 
 /*General Code */
 
