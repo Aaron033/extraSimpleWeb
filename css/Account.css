@@ -2,7 +2,7 @@ html{
     width: 100%;
 }
 .main-account-container{
-
+text-align: center;
 }
 
 .registration-container{
@@ -16,6 +16,10 @@ width:300px;
 .account-container ul {
     text-align: center;
     padding:20px;
+}
+.account-container input{
+    height: 30px;
+    width:200px;
 }
 
 .account-container li,.media-container li{
@@ -49,26 +53,36 @@ font-size: 1rem;
     text-align: right;
     padding: 15px;
     margin: 10px;
+    
 
 }
 
 .media-container li:nth-child(1){
+    text-align: left;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color:aliceblue;
+}
+.media-container li:nth-child(2){
     background-color:#3C5A99;
+       position: relative;
  
 }
 
-.media-container li:nth-child(2){
+.media-container li:nth-child(3){
     background-color:#ffc838;
     position: relative;
 }
 
-.media-container li:nth-child(3){
+.media-container li:nth-child(4){
      background-color:#fb3958;
+       position: relative;
 
 }
 
 .media-container li:last-child{
       background-color:#38A1F3;
+       position: relative;
 
 }
 
@@ -78,9 +92,21 @@ font-size: 1rem;
    position: absolute;
     width:40px;
     height: 40px;
+    background-color: #DBAC30;
     
 }
 .logo-container img{
      width:40px;
     height: 40px;
+}
+
+
+
+.logo-containerr img{
+      width:40px;
+    height: 40px;
+}
+
+.social-media-container{
+    display: inline-block;
 }
