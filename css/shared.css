@@ -190,7 +190,7 @@ a {
 .main-footer__link a:active {
   color: #ccc;
 }
-li:last-of-type {
+   .main-footer li:last-of-type {
     font-size: 0.7rem;
     color: antiquewhite;
 }

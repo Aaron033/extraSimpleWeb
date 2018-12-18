@@ -111,7 +111,9 @@
 
 .prices {
     text-align: center;
+   
 }
+
 
 .price1,
 .price2,
@@ -173,6 +175,9 @@
     outline: none;
 }
 
+.price3 h3,.price3 h4, .price3 h5{
+    padding-bottom: 8px;
+}
 /*commments section */
 #key-features {
     background-color: #0E8BC4;
