@@ -196,10 +196,24 @@ li:last-of-type {
 }
 
 
+.main-logo{
+    width: 40px; 
+    height:40px; 
+    position: absolute; 
+    top:20px;
+}
+
+
+
 @media (max-width: 39.9rem) {
     .description {
         width: 100%;
     }
+    
+            .main-logo{
+    left: 50%;
+    transform: translateX(-50%);
+}
 
     .navigation-menu {
         display: none;
@@ -216,10 +230,14 @@ li:last-of-type {
         display: none;
 
     }
+    
+
 }
 @media (min-width: 40rem) {
   .main-footer__link {
     display: inline-block;
     margin: 0 1rem;
   }
+    
+
 }
