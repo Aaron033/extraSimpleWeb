@@ -16,11 +16,8 @@ main {
     width: 100%;
 }
 
-/*
-form{
-    width:200px;
-}
-*/
+/*selects all the inputs that are invalid */
+
 
 .signup-form button[class*="button"]{
     background-color:yellow; 
@@ -29,7 +26,16 @@ form{
 .signup-form input[id*="terms"] + label{
     display:inline-block; 
     width: auto;
+/*    this is how you center the checkbox */
+    vertical-align: bottom;
 }
+
+.signup-form input[type="checkbox"]:checked {
+    background:#2ddf5c; 
+    border: #0e4f1f;
+}
+
+
 
 .signup-form button[type="submit"]{
     display:block; 
@@ -57,9 +63,34 @@ form{
     border-color: #2ddf5c;
     
 }
+
+.signup-form input[type="checkbox"]{
+    border: 1px solid #ccc; 
+    background: #fff; 
+    width: 1rem; 
+    height: 1rem;
+    -webkit-appearance:none; 
+    -moz-appearance: none; 
+    appearance: none;
+}
+
+.signup-form input.invalid,
+.signup-form input.invalid,
+.signup-form :invalid {
+    border-color: red !important; 
+    background: #faacac;
+}
 @media (min-width: 40rem){
     .signup-form{
         margin: auto; 
         width: 25rem;
     }
+}
+
+.button[disabled]{
+    cursor: not-allowed;
+    border: #a1a1a1;
+    
+    background-color: #ccc !important;
+    color: #a1a1a1;
 }
