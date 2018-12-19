@@ -30,3 +30,28 @@ form{
     display:inline-block; 
     width: auto;
 }
+
+.signup-form button[type="submit"]{
+    display:block; 
+    margin-top: 1rem; 
+}
+
+.signup-form{
+    padding:1rem;
+}
+.signup-form label{
+    font-weight: bold; 
+}
+.signup-form input,
+.signup-form select {
+    border:1px solid #ccc;
+    padding: 0.2rem 0.5rem; 
+    font:inherit; 
+    
+}
+@media (min-width: 40rem){
+    .signup-form{
+        margin: auto; 
+        width: 25rem;
+    }
+}
