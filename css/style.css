@@ -10,12 +10,15 @@
 .navigation-menu {
 
     text-align: center;
+    display: flex;
+    align-items: center;
 
 }
 
 .navigation-list_links {
     list-style: none;
-    display: inline-block;
+display: inline-block;
+/*    align-items: center;*/
     margin: 10px;
     padding: 10px;
 

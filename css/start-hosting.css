@@ -69,6 +69,7 @@ main {
     background: #fff; 
     width: 1rem; 
     height: 1rem;
+/*    content:&#x2713;*/
     -webkit-appearance:none; 
     -moz-appearance: none; 
     appearance: none;
