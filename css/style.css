@@ -4,14 +4,20 @@
     padding: 0.6rem 0.7rem 0.7rem 0.7rem;
     position: relative;
     width:100%;
+
+}
+.navigation-container{
+    display: flex; 
+    justify-content: center;
 }
 
-
 .navigation-menu {
-
+/*
     text-align: center;
-    display: flex;
+
+   
     align-items: center;
+*/
 
 }
 
