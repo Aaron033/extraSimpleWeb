@@ -65,18 +65,25 @@ display: inline-block;
 
 }
 
+.prices{
+    width:100%; 
+    display: flex;
+    justify-content: center;
+}
 
 @media (min-width: 40rem) {
 
     .price1,
     .price2,
     .price3 {
-        text-align: center;
-        display: inline-block;
-        width: 30%;
-        vertical-align: middle;
+/*        text-align: center;*/
+/*        display: inline-block;*/
+/*        width: 30%;*/
+/*        vertical-align: middle;*/
         min-width: 13rem;
         max-width: 17.7rem;
+        
+        
 
     }
 }
