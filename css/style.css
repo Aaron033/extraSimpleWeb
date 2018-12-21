@@ -93,19 +93,14 @@ display: inline-block;
 
 }
 
-.price2 h2 {
-    margin-bottom: 6px;
-}
+
 
 .price3 {
     background-color: #F7F174;
     /*    max-width: 250px;*/
 }
 
-.prices {
-    text-align: center;
-   
-}
+
 
 
 .price1,
@@ -168,9 +163,7 @@ display: inline-block;
     outline: none;
 }
 
-.price3 h3,.price3 h4, .price3 h5{
-    padding-bottom: 8px;
-}
+
 /*commments section */
 #key-features {
     background-color: #0E8BC4;
@@ -222,7 +215,14 @@ display: inline-block;
         .price3, {
         min-width: 13rem;
         max-width: 17.7rem;
+            
     }
 
    
+}
+
+@media (max-width: 39rem){
+    .prices{
+        flex-direction: column;
+    }
 }
