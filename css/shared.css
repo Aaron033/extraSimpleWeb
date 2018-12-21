@@ -213,7 +213,10 @@ a {
     color: antiquewhite;
 }
 
+.main-footer__link {
 
+    margin: 0 1rem;
+}
 .main-logo{
     width: 40px; 
     height:40px; 
@@ -240,6 +243,7 @@ a {
     .main-navigation {
         height: 50px;
     }
+    
 }
 
 
@@ -248,15 +252,7 @@ a {
      display: none;
 
     }
-    
-
+ 
 }
-@media (min-width: 40rem) {
-  .main-footer__link {
 
-    margin: 0 1rem;
-      
-  }
-    
 
-}
