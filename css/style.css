@@ -71,22 +71,7 @@ display: inline-block;
     justify-content: center;
 }
 
-@media (min-width: 40rem) {
 
-    .price1,
-    .price2,
-    .price3 {
-/*        text-align: center;*/
-/*        display: inline-block;*/
-/*        width: 30%;*/
-/*        vertical-align: middle;*/
-        min-width: 13rem;
-        max-width: 17.7rem;
-        
-        
-
-    }
-}
 
 .price1 {
     background-color: #F7F174;
@@ -230,6 +215,13 @@ display: inline-block;
         width: 27%;
         vertical-align: top;
         max-width: 18rem;
+    }
+    
+    .price1, 
+    .price2, 
+        .price3, {
+        min-width: 13rem;
+        max-width: 17.7rem;
     }
 
    
