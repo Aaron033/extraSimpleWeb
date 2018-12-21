@@ -1,17 +1,15 @@
 html{
     width: 100%;
 }
+
 .main-account-container{
-text-align: center;
+    display: flex; 
+    justify-content: center;
 }
 
+
 .registration-container{
-width:300px;
-  display: inline-block;
-/*    margin: 0 auto;*/
     background: #5483B3;
-    vertical-align: top;
-    
 }
 
 
@@ -43,13 +41,7 @@ width:300px;
 .account-container a{
     color:aliceblue;
 }
-/*
-.account-container li:nth-of-type(5){
-    border: 2px solid #fff;
 
-    text-align: center;
-}
-*/
 .summit-botton{
     margin:5px;
     width: 204px;
@@ -63,7 +55,7 @@ width:300px;
 
 
 .media-container{
-    width:300px;
+    width:250px;
   display: inline-block;
 /*    margin: 0 auto;*/
     background: #5483B3;
@@ -136,4 +128,11 @@ font-size: 1rem;
 .social-media-container{
     display: inline-block;
  
+}
+
+@media(max-width: 39rem){
+    .main-account-container{
+        flex-direction: column;
+        
+    }
 }
