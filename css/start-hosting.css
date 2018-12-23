@@ -2,6 +2,10 @@ main {
     padding-top: 1rem;
 }
 
+.signup-page{
+    display: grid;
+}
+
 .signup-title {
     text-align: center;
     font-size: 1.8rem;
