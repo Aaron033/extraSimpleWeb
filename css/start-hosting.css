@@ -17,6 +17,9 @@ form {
                         ".  . "
                         "sn sn"; 
     grid-row-gap: 2rem;
+    align-items: center;
+    align-content: center;
+    
     
 }
 
@@ -27,18 +30,6 @@ form {
     color: #ff5454;
 }
 
-
-
-.signup-form label,
-.signup-form input,
-.signup-form select {
-    grid-area: inf;
-/*
-    display: block;
-    margin-top: 1rem;
-    width: 100%;
-*/
-}
 
 /*selects all the inputs that are invalid */
 
