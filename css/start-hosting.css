@@ -1,4 +1,4 @@
-main {
+form {
     padding-top: 1rem;
 }
 
@@ -15,9 +15,11 @@ main {
 .signup-form label,
 .signup-form input,
 .signup-form select {
+/*
     display: block;
     margin-top: 1rem;
     width: 100%;
+*/
 }
 
 /*selects all the inputs that are invalid */
@@ -89,6 +91,7 @@ main {
     .signup-form{
         margin: auto; 
         width: 25rem;
+        grid-template-columns: 10rem auto; 
     }
 }
 
