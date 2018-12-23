@@ -178,6 +178,7 @@ a {
 .main-footer {
     background-color: #273041;
     padding: 2rem;
+    grid-area: footer;
 
 }
 
