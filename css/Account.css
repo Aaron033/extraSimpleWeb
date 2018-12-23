@@ -138,4 +138,7 @@ font-size: 1rem;
         flex-direction: column;
         
     }
+    .main-footer{
+        height: 55px
+    }
 }

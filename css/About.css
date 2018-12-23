@@ -1,16 +1,14 @@
+.about-container{
+    display: flex;
+    flex-direction: column;
+}
+
 .testimonial {
     font-size: 1.2rem;
   }
   
-  /*.testimonial__list {
-    width: 80%;
-    margin: auto;
-  }*/
-  
- 
-
   .testimonial__image-container {
-    width: 100%;
+/*    width: 100%;*/
     max-width: 25rem;
     box-shadow: 3px 3px 5px 3px rgba(0,0,0,0.3);
   }
@@ -30,6 +28,7 @@
   
   #customer-2.testimonial {
     text-align: right;
+
   }
   
   #customer-2 .testimonial__info {
