@@ -3,18 +3,35 @@ form {
 }
 
 .signup-page{
+    width:30rem;
+    margin: 20px;
     display: grid;
+     grid-template-columns: 1fr 1fr; 
+    
+    grid-template-areas: "inf inf"
+                        "tit txt"
+                        "fn nf"
+                        "ln nl"
+                        "em me"
+                        "ps sp"
+                        ".  . "
+                        "sn sn"; 
+    
 }
 
 .signup-title {
+    grid-area: inf; 
     text-align: center;
     font-size: 1.8rem;
     color: #ff5454;
 }
 
+
+
 .signup-form label,
 .signup-form input,
 .signup-form select {
+    grid-area: inf;
 /*
     display: block;
     margin-top: 1rem;
@@ -89,9 +106,10 @@ form {
 }
 @media (min-width: 40rem){
     .signup-form{
+        display: grid;
         margin: auto; 
-        width: 25rem;
-        grid-template-columns: 10rem auto; 
+        width: 10rem ;
+        grid-template-columns: 10rem auto ; 
     }
 }
 
