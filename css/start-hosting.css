@@ -12,19 +12,18 @@ form {
                         "tit txt"
                         "fn nf"
                         "ln nl"
-                        "em me"
-                        "ps sp"
-                        ".  . "
                         "sn sn"; 
     grid-row-gap: 1rem;
- justify-content: center;
-    align-items: center;
-    justify-items: center; 
+
+
     align-content: center;
  
 }
-.signup-form{
-   text-align: center;
+.signup-page .button{
+    grid-column: span 2;
+    width: 100px;
+
+ 
 }
 
 .signup-title {
@@ -96,12 +95,10 @@ form {
 }
 
 
-@media (max-width: 40rem){
+@media (min-width: 40rem){
     .signup-form{
-        display: grid;
-        margin: auto; 
-        width: 10rem ;
-        grid-template-columns: 10rem auto ; 
+
+ 
     }
 }
 
