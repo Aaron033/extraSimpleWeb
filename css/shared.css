@@ -65,7 +65,8 @@
 /*Mobile-app */
 .mobile-nav {
 
-    
+transform:translateX(0) ease-out !important;
+    transition: transform 300ms ease-out !important;
     display: none;
     position: fixed;
     z-index: 101;
@@ -242,7 +243,7 @@ a {
     .main-navigation {
         height: 50px;
     }
-    
+  
 }
 
 
@@ -254,4 +255,16 @@ a {
  
 }
 
+.mobile-nav__item{
+    animation: wiggle 200ms 3s; 
+}
+
+@keyframes wiggle{
+    from{
+        transform: rotateZ(0deg); 
+    }
+    to{
+        transform: rotateZ(10deg); 
+    }
+}
 
