@@ -16,11 +16,15 @@ form {
                         "ps sp"
                         ".  . "
                         "sn sn"; 
-    grid-row-gap: 2rem;
+    grid-row-gap: 1rem;
+ justify-content: center;
     align-items: center;
+    justify-items: center; 
     align-content: center;
-    
-    
+ 
+}
+.signup-form{
+   text-align: center;
 }
 
 .signup-title {
@@ -29,10 +33,6 @@ form {
     font-size: 1.8rem;
     color: #ff5454;
 }
-
-
-/*selects all the inputs that are invalid */
-
 
 .signup-form button[class*="button"]{
     background-color:yellow; 
@@ -57,9 +57,7 @@ form {
     margin-top: 1rem; 
 }
 
-.signup-form{
-    padding:1rem;
-}
+
 .signup-form label{
     font-weight: bold; 
 }
@@ -96,7 +94,9 @@ form {
     border-color: red !important; 
     background: #faacac;
 }
-@media (min-width: 40rem){
+
+
+@media (max-width: 40rem){
     .signup-form{
         display: grid;
         margin: auto; 
